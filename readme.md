@@ -65,6 +65,24 @@ The API comes pre-populated with 3 realistic Stacks ecosystem proposals:
 2. **Stacks DeFi Labs** - Bitcoin-Backed Yield Farming Protocol
 3. **Clarity Dev Tools** - Comprehensive Testing Framework for Clarity Smart Contracts
 
+**Example: Zero Authority Proposal Structure**
+```json
+{
+  "name": "Zero Authority",
+  "email_address": "dao@zeroauthority.xyz",
+  "timestamp": "2024-06-13T18:32:16Z",
+  "one_liner": "DeGrants DAO Onchain & Open Source UX Toolkit",
+  "project_description": "DeGrants DAO Onchain enhances decentralized autonomous organizations with streamlined on-chain governance solutions, fostering transparency and community-driven decision-making. The Open Source UX Toolkit aims to enhance user experience in decentralized ecosystems, offering accessible, customizable tools to enhance interaction and governance within blockchain communities.",
+  "impact": "The DeGrants DAO Onchain and Open Source UX Toolkit aims to significantly impact the Stacks community by enhancing decentralized governance and user experience. It aims to increase participation in DAOs and improve voting efficiency. It fosters transparency and community trust through accessible tools. For the Open Source UX Toolkit, the impact includes better usability and customization options, promoting broader adoption and innovation in blockchain governance.",
+  "project_timelines_milestones_deliverables": "DeGrants DAO Onchain: 6-8 weeks with smart contract development, voting mechanisms, and testnet deployment. Open Source UX Toolkit: 6-8 weeks with UX research, prototype development, and community adoption drive.",
+  "overall_cost": "3200",
+  "budgeting": "$1000 DeGrants DAO Onchain & $2200 Open Source UX Toolkit",
+  "self_sustainability_plans": "Open source release and community adoption drive to ensure long-term sustainability and community contributions.",
+  "open_source": "Yes; open source",
+  "why_me": "With my tenure in the Stacks ecosystem since 2019, my dedicated involvement with hodlstx since 2021, and our ongoing commitment through the Zero Authority live podcast since the same year, I've gained deep-rooted experience and understanding of our community's needs and evolution."
+}
+```
+
 **Benefits:**
 - ✅ **Realistic starting state** for developers testing your API
 - ✅ **Consistent data** across deployments
