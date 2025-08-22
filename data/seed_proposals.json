@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Zero Authority",
+    "email_address": "dao@zeroauthority.xyz",
+    "timestamp": "2024-06-13T18:32:16Z",
+    "one_liner": "DeGrants DAO Onchain & Open Source UX Toolkit",
+    "project_description": "DeGrants DAO Onchain enhances decentralized autonomous organizations with streamlined on-chain governance solutions, fostering transparency and community-driven decision-making. The Open Source UX Toolkit aims to enhance user experience in decentralized ecosystems, offering accessible, customizable tools to enhance interaction and governance within blockchain communities.",
+    "impact": "The DeGrants DAO Onchain and Open Source UX Toolkit aims to significantly impact the Stacks community by enhancing decentralized governance and user experience. It aims to increase participation in DAOs and improve voting efficiency. It fosters transparency and community trust through accessible tools. For the Open Source UX Toolkit, the impact includes better usability and customization options, promoting broader adoption and innovation in blockchain governance.",
+    "project_timelines_milestones_deliverables": "DeGrants DAO Onchain: 6-8 weeks with smart contract development, voting mechanisms, and testnet deployment. Open Source UX Toolkit: 6-8 weeks with UX research, prototype development, and community adoption drive.",
+    "overall_cost": "3200",
+    "budgeting": "$1000 DeGrants DAO Onchain & $2200 Open Source UX Toolkit",
+    "self_sustainability_plans": "Open source release and community adoption drive to ensure long-term sustainability and community contributions.",
+    "open_source": "Yes; open source",
+    "why_me": "With my tenure in the Stacks ecosystem since 2019, my dedicated involvement with hodlstx since 2021, and our ongoing commitment through the Zero Authority live podcast since the same year, I've gained deep-rooted experience and understanding of our community's needs and evolution."
+  },
+  {
+    "name": "Stacks DeFi Labs",
+    "email_address": "team@stacksdefi.xyz",
+    "timestamp": "2024-08-15T10:00:00Z",
+    "one_liner": "Bitcoin-Backed Yield Farming Protocol on Stacks",
+    "project_description": "A decentralized yield farming protocol that allows users to earn yields on their Bitcoin holdings by providing liquidity to Stacks-based DeFi pools. The protocol uses Bitcoin as collateral while maintaining the security and decentralization principles of the Stacks ecosystem.",
+    "impact": "This protocol will significantly increase Bitcoin utility in the Stacks ecosystem, providing new earning opportunities for Bitcoin holders while driving liquidity to Stacks DeFi protocols. It will attract more users to the Stacks ecosystem and create a sustainable yield farming economy.",
+    "project_timelines_milestones_deliverables": "Phase 1 (4 weeks): Smart contract development and security audits. Phase 2 (3 weeks): Testnet deployment and community testing. Phase 3 (2 weeks): Mainnet launch and liquidity mining incentives.",
+    "overall_cost": "5000",
+    "budgeting": "$3000 for development and audits, $1500 for testing and deployment, $500 for marketing and community engagement",
+    "self_sustainability_plans": "Protocol fees and yield farming rewards will sustain ongoing development and community incentives.",
+    "open_source": "Yes",
+    "why_me": "Our team has successfully deployed multiple DeFi protocols on Ethereum and Solana. We bring deep expertise in yield farming mechanics, smart contract security, and community building to the Stacks ecosystem."
+  },
+  {
+    "name": "Clarity Dev Tools",
+    "email_address": "dev@claritytools.xyz",
+    "timestamp": "2024-08-20T14:30:00Z",
+    "one_liner": "Comprehensive Testing Framework for Clarity Smart Contracts",
+    "project_description": "A developer-friendly testing framework specifically designed for Clarity smart contracts on Stacks. The framework will include unit testing, integration testing, and security analysis tools to help developers build more robust and secure smart contracts.",
+    "impact": "This tooling will significantly improve the quality and security of smart contracts deployed on Stacks, reducing bugs and vulnerabilities. It will lower the barrier to entry for new developers and increase confidence in the Stacks ecosystem.",
+    "project_timelines_milestones_deliverables": "Week 1-3: Core testing framework development. Week 4-5: Security analysis tools integration. Week 6-7: Documentation and developer tutorials. Week 8: Community beta testing and feedback integration.",
+    "overall_cost": "2800",
+    "budgeting": "$1800 for core development, $600 for security tools, $400 for documentation and community outreach",
+    "self_sustainability_plans": "Open source with premium enterprise features and consulting services for large-scale deployments.",
+    "open_source": "Yes",
+    "why_me": "Our team consists of experienced Clarity developers who have contributed to the Stacks ecosystem for over 2 years. We understand the pain points developers face and have the technical expertise to build robust tooling solutions."
+  }
+]

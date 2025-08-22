@@ -1,9 +1,21 @@
 from flask import Flask, request, jsonify
 
+import json
+import os
+
 def create_app():
     app = Flask(__name__)
 
+    # Load seed data on startup
     proposals = []
+    seed_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'seed_proposals.json')
+    
+    try:
+        with open(seed_file, 'r') as f:
+            proposals = json.load(f)
+    except FileNotFoundError:
+        # If seed file doesn't exist, start with empty proposals
+        proposals = []
 
     template = {
         "name": "",
