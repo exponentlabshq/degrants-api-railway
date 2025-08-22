@@ -2,10 +2,11 @@
 
 A minimal, testable, and deployable Flask API for managing Stacks grant proposals.
 
-## ✅ Project Status: IMPLEMENTED & READY
+## ✅ Project Status: IMPLEMENTED & READY WITH SEED DATA
 
 **Features:**
 - RESTful API for proposal submission and retrieval
+- **Pre-populated with 3 realistic Stacks proposals** (seed data)
 - In-memory storage (easily extensible to database)
 - Comprehensive test coverage
 - Railway-ready deployment configuration
@@ -17,6 +18,8 @@ degrants-api-railway/
 ├── app/
 │   ├── __init__.py         # Package initialization
 │   └── api.py              # Main Flask application
+├── data/
+│   └── seed_proposals.json # Pre-populated proposal data
 ├── tests/
 │   ├── __init__.py         # Test package
 │   └── test_api.py         # Unit tests
@@ -31,7 +34,7 @@ degrants-api-railway/
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/` | Health check - confirms API is running |
-| GET | `/proposals` | Retrieve all submitted proposals |
+| GET | `/proposals` | Retrieve all submitted proposals (includes seed data) |
 | POST | `/proposals` | Submit a new proposal |
 | GET | `/proposals/<id>` | Get a specific proposal by ID |
 
@@ -54,6 +57,20 @@ degrants-api-railway/
 }
 ```
 
+## 🌱 Seed Data
+
+The API comes pre-populated with 3 realistic Stacks ecosystem proposals:
+
+1. **Zero Authority** - DeGrants DAO Onchain & Open Source UX Toolkit
+2. **Stacks DeFi Labs** - Bitcoin-Backed Yield Farming Protocol
+3. **Clarity Dev Tools** - Comprehensive Testing Framework for Clarity Smart Contracts
+
+**Benefits:**
+- ✅ **Realistic starting state** for developers testing your API
+- ✅ **Consistent data** across deployments
+- ✅ **Version controlled** with your codebase
+- ✅ **Easy to modify** without touching code
+
 ## 🧪 Testing
 
 Run the test suite:
@@ -65,6 +82,7 @@ python3 -m pytest tests/ -v
 - ✅ Health check endpoint
 - ✅ Proposal creation and retrieval
 - ✅ Error handling for invalid proposal IDs
+- ✅ Seed data loading functionality
 
 ## 🏃‍♂️ Local Development
 
@@ -83,7 +101,7 @@ python3 -m pytest tests/ -v
 3. Test endpoints:
    ```bash
    curl http://localhost:8000/
-   curl http://localhost:8000/proposals
+   curl http://localhost:8000/proposals  # Returns seed data + any new proposals
    ```
 
 ## 🚂 Railway Deployment
@@ -103,13 +121,16 @@ python3 -m pytest tests/ -v
    - Create new project → Deploy from GitHub repo
    - Railway automatically detects `Procfile` and runs `gunicorn run:app`
 
+**Your API will start with 3 realistic proposals already loaded!**
+
 ## 🔧 Technical Details
 
 - **Framework:** Flask 3.0.3
 - **WSGI Server:** Gunicorn 21.2.0
 - **Testing:** Pytest 8.2.2
 - **Architecture:** Factory pattern with `create_app()`
-- **Storage:** In-memory list (stateless, perfect for Railway)
+- **Storage:** In-memory list with JSON seed data loading
+- **Seed Data:** Loaded on startup from `data/seed_proposals.json`
 
 ## 🎯 Design Principles
 
@@ -117,6 +138,7 @@ python3 -m pytest tests/ -v
 - **Testable:** Unit tests for all endpoints
 - **Deployable:** Works out-of-the-box on Railway
 - **Extensible:** Easy to swap in database later without touching tests
+- **Realistic:** Starts with meaningful data for immediate testing
 
 ## 🔮 Future Enhancements
 
@@ -125,7 +147,15 @@ python3 -m pytest tests/ -v
 - Rate limiting
 - Proposal validation
 - File uploads for project documents
+- Dynamic seed data management
+
+## 📊 Current Implementation
+
+- **Repository:** https://github.com/exponentlabshq/degrants-api-railway
+- **Status:** Fully implemented with seed data
+- **Tests:** All passing
+- **Ready for:** Railway deployment
 
 ---
 
-**Ready for production deployment! 🚀**
+**Ready for production deployment with realistic starter data! 🚀**
