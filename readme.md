@@ -172,8 +172,9 @@ python3 -m pytest tests/ -v
 - **Repository:** https://github.com/exponentlabshq/degrants-api-railway
 - **Status:** Fully implemented with seed data
 - **Tests:** All passing
-- **Ready for:** Railway deployment
+- **Production:** https://web-production-09f1.up.railway.app
+- **Ready for:** Production use
 
 ---
 
-**Ready for production deployment with realistic starter data! 🚀**
+**Successfully deployed to production with realistic starter data! 🚀**
