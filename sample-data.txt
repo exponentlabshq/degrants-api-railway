@@ -1,0 +1,31 @@
+6/13/2024 18:32:16	dao@zeroauthority.xyz	Open Source DAO & UX	Growth / Community building	DeGrants DAO Onchain & Open Source UX Toolkit	DeGrants DAO Onchain enhances decentralized autonomous organizations with streamlined on-chain governance solutions, fostering transparency and community-driven decision-making. The Open Source UX Toolkit aims to enhance user experience in decentralized ecosystems, offering accessible, customizable tools to enhance interaction and governance within blockchain communities.	https://www.youtube.com/watch?v=wdsIBvNzqaM	"Impact:
+The DeGrants DAO Onchain and Open Source UX Toolkit aims to significantly impact the Stacks community by enhancing decentralized governance and user experience. It aims to increase participation in DAOs and improve voting efficiency. It fosters transparency and community trust through accessible tools. For the Open Source UX Toolkit, the impact includes better usability and customization options, promoting broader adoption and innovation in blockchain governance.
+
+Target Audience:
+Our primary audience includes Stacks DAO founders, developers, and community members seeking efficient governance solutions. Strategies involve open-source collaboration, user feedback loops, and educational outreach to empower diverse stakeholders in adopting and customizing these tools.
+
+Outputs:
+Funding supports smart contract development for DAO governance, intuitive UX design for the toolkit, and extensive documentation. Outputs include streamlined voting mechanisms, customizable UX interfaces, and educational resources. These outputs empower developers and non-developers alike to engage effectively in decentralized governance, fostering a vibrant and inclusive Stacks ecosystem."	"
+DeGrants DAO Onchain:
+- Timeline: 6-8 weeks
+- Milestones:
+  1. Week 1-2: Smart contract architecture finalized and development kickoff.
+  2. Week 3-4: Implementation of voting mechanisms and proposal submission features.
+  3. Week 5-6: Integration testing with mock DAO scenarios and initial security audits.
+  4. Week 7-8: Deployment on testnet, community feedback collection, and bug fixes.
+- Deliverable Metrics:
+  - Smart contracts deployed and operational on testnet.
+  - Voting efficiency metrics (e.g., transaction times, participation rates).
+  - Security audit reports and resolution of identified issues.
+
+Open Source UX Toolkit:
+- Timeline: 6-8 weeks
+- Milestones:
+  1. Week 1-2: UX research and initial design concepts for toolkit interfaces.
+  2. Week 3-4: Prototype development and usability testing with community stakeholders.
+  3. Week 5-6: Iterative design improvements based on feedback and finalization of UX assets.
+  4. Week 7-8: Documentation completion, open-source release, and community adoption drive.
+- Deliverable Metrics:
+  - Number of toolkit downloads and installations.
+  - User satisfaction ratings from usability testing.
+  - Contributions from the community (e.g., pull requests, feature requests)."	3200	$1000 DeGrants DAO Onchain & $2200 Open Source UX Toolkit	https://docs.zeroauthority.xyz/the-dao/product-roadmap/road-map-overview	Yes; open source	With my tenure in the Stacks ecosystem since 2019, my dedicated involvement with hodlstx since 2021, and our ongoing commitment through the Zero Authority live podcast since the same year, I've gained deep-rooted experience and understanding of our community's needs and evolution. My long-term perspective and active engagement uniquely position me to innovate and deliver impactful solutions like the DeGrants DAO Onchain and Open Source UX Toolkit, ensuring they resonate with and serve the Stacks community effectively into the future.	Navigating the landscape of blockchain development presents various challenges, barriers, risks, and competition. Challenges include scalability issues, regulatory uncertainties, and technological complexity. Barriers such as high entry costs and interoperability hurdles can slow adoption. Risks encompass security vulnerabilities, market volatility, and legal compliance. Competition is fierce among blockchain platforms, each vying for developer attention, user adoption, and ecosystem growth. Staying ahead requires continuous innovation, robust community engagement, and strategic partnerships to mitigate risks and leverage opportunities in this dynamic environment.		zeroauthority; xyzero; hodlstx; sushil; gary; hz; sirjonathan	https://github.com/zeroauthority-dao/mission/issues/7	https://x.com/xyzerobtc	https://app.console.xyz/u/xyzero.btc	xyzero.btc	https://github.com/xyzerobtc	dao@zeroauthority.xyz	herogamer; gordon; goodkitty; Nietta; PHTOG; Marc; cryptobearbaker	Received grant in 2021 from STX FND	Yes	Yes	Yes	Yes	Yes	Yes		4.5	5	7	4			6	5	0		1770: Thanks for the application Zero - I have sent a DM with a couple of questions to assist in my review. 1 Yes we need DAO Tooling and have to start somewhere 2. Re UX I recall the concept was raised as a problem that needed to be solved early in DeGrants.  						HG: Not sure we need DeGrants onchain now? Have you spoken to all lead stewards to see if we need? Need some information/explanation before updating score. Also please check if there is cross-over with other DAO tooling already like Rozar's Charisma DAO				

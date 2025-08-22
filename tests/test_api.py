@@ -14,6 +14,7 @@ def test_add_and_get_proposal():
 
     proposal = {
         "name": "Test Proposal",
+        "bns_name": "testuser.btc",
         "email_address": "test@example.com",
         "timestamp": "2024-08-21T12:00:00Z",
         "one_liner": "This is a test",

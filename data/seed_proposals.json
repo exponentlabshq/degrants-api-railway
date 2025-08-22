@@ -1,6 +1,7 @@
 [
   {
     "name": "Zero Authority",
+    "bns_name": "xyzero.btc",
     "email_address": "dao@zeroauthority.xyz",
     "timestamp": "2024-06-13T18:32:16Z",
     "one_liner": "DeGrants DAO Onchain & Open Source UX Toolkit",
@@ -15,6 +16,7 @@
   },
   {
     "name": "Stacks DeFi Labs",
+    "bns_name": "stacksdefi.btc",
     "email_address": "team@stacksdefi.xyz",
     "timestamp": "2024-08-15T10:00:00Z",
     "one_liner": "Bitcoin-Backed Yield Farming Protocol on Stacks",
@@ -29,6 +31,7 @@
   },
   {
     "name": "Clarity Dev Tools",
+    "bns_name": "claritydev.btc",
     "email_address": "dev@claritytools.xyz",
     "timestamp": "2024-08-20T14:30:00Z",
     "one_liner": "Comprehensive Testing Framework for Clarity Smart Contracts",

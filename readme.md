@@ -43,6 +43,7 @@ degrants-api-railway/
 ```json
 {
   "name": "string",
+  "bns_name": "string",
   "email_address": "string", 
   "timestamp": "string",
   "one_liner": "string",
@@ -69,6 +70,7 @@ The API comes pre-populated with 3 realistic Stacks ecosystem proposals:
 ```json
 {
   "name": "Zero Authority",
+  "bns_name": "xyzero.btc",
   "email_address": "dao@zeroauthority.xyz",
   "timestamp": "2024-06-13T18:32:16Z",
   "one_liner": "DeGrants DAO Onchain & Open Source UX Toolkit",

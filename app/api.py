@@ -19,6 +19,7 @@ def create_app():
 
     template = {
         "name": "",
+        "bns_name": "",
         "email_address": "",
         "timestamp": "",
         "one_liner": "",
