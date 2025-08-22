@@ -32,6 +32,11 @@ def test_add_and_get_proposal():
     data = res.get_json()
     assert data["proposal"]["name"] == "Test Proposal"
 
-    res = client.get("/proposals/0")
+    # Get the latest proposal (should be the one we just added)
+    res = client.get("/proposals")
+    all_proposals = res.get_json()
+    latest_proposal_id = len(all_proposals) - 1
+    
+    res = client.get(f"/proposals/{latest_proposal_id}")
     assert res.status_code == 200
     assert res.get_json()["email_address"] == "test@example.com"
